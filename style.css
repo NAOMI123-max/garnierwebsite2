@@ -48,28 +48,28 @@ table.table-dark tbody td {
   }
 }
 
-/* Hero Section Background */
+/* Hero Section as Full Background */
 .hero-section {
-  background-image: url('images/hero-bg.jpeg'); /* Put your hero image in /images/ */
+  background-image: url('images/hero-bg.jpeg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   position: relative;
 }
 
-.hero-section::before {
-  content: "";
+.hero-section .overlay {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
   z-index: 1;
 }
 
 .hero-section .container {
-  position: relative;
   z-index: 2;
+  position: relative;
 }
+
 
 /* Cart Page */
 .cart-table img {
