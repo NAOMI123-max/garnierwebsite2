@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* Cards hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.6);
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Feedback form */
+#feedback-response {
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* Cart Table */
+table.table-dark thead th {
+  border-bottom: 2px solid #28a745;
+}
+
+table.table-dark tbody td {
+  vertical-align: middle;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
