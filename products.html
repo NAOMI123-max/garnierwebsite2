@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Products - Garnier Skin Care</title>
+  <title>Products - Garnier</title>
   <link rel="stylesheet" href="style.css" />
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -12,10 +12,10 @@
 </head>
 <body class="bg-light text-dark">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <nav class="navbar navbar-expand-lg navbar-light  bg-light sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="images/garnier-logo.png" alt="Garnier Logo" width="120" />
+        <img src="images/garnier-logo.png" alt="Garnier " width="120" />
       </a>
       <button
         class="navbar-toggler"
@@ -37,27 +37,243 @@
   </nav>
 
   <!-- Products Grid -->
-  <div class="container py-5">
-    <h2 class="text-center mb-4">Our Products</h2>
-    <div class="row g-4">
+<section class="py-5"> 
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <h2 id="categoryTitle">All Products</h2>
+      </div> 
+      
+        <!-- Products List -->
+<div class="row g-4">
 
-      <!-- Example Product Card -->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 text-dark">
-          <img src="images/product1.jpg" class="card-img-top" alt="Micellar Water">
-          <div class="card-body">
-            <h5 class="card-title">Micellar Water</h5>
-            <p class="card-text">Removes makeup and cleanses skin. 400ml.</p>
-            <p class="fw-bold">$10.99</p>
-            <button class="btn btn-success add-to-cart" data-name="Micellar Water" data-price="10.99">Add to Cart</button>
-          </div>
-        </div>
+  <!-- Product 1 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product1.jpg" class="card-img-top" alt="Micellar Water">
+      <div class="card-body">
+        <h5 class="card-title">Micellar Water</h5>
+        <p class="card-text">Gently removes makeup and cleanses skin.</p>
+        <p class="fw-bold">$10.99</p>
+        <button class="btn btn-success add-to-cart" data-name="Micellar Water" data-price="10.99">Add to Cart</button>
       </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product2.jpg" class="card-img-top" alt="Vitamin C Serum">
+      <div class="card-body">
+        <h5 class="card-title">Vitamin C Serum</h5>
+        <p class="card-text">Brightens skin and reduces dark spots.</p>
+        <p class="fw-bold">$12.49</p>
+        <button class="btn btn-success add-to-cart" data-name="Vitamin C Serum" data-price="12.49">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product3.jpg" class="card-img-top" alt="Hydrating Day Cream">
+      <div class="card-body">
+        <h5 class="card-title">Hydrating Day Cream</h5>
+        <p class="card-text">Keeps skin moisturized all day long.</p>
+        <p class="fw-bold">$9.99</p>
+        <button class="btn btn-success add-to-cart" data-name="Hydrating Day Cream" data-price="9.99">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product4.jpg" class="card-img-top" alt="Pure Active Face Wash">
+      <div class="card-body">
+        <h5 class="card-title">Pure Active Face Wash</h5>
+        <p class="card-text">Deep cleans to remove oil and dirt.</p>
+        <p class="fw-bold">$7.49</p>
+        <button class="btn btn-success add-to-cart" data-name="Pure Active Face Wash" data-price="7.49">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product5.jpg" class="card-img-top" alt="Aloe Vera Moisturizer">
+      <div class="card-body">
+        <h5 class="card-title">Aloe Vera Moisturizer</h5>
+        <p class="card-text">Natural hydration with soothing aloe.</p>
+        <p class="fw-bold">$8.49</p>
+        <button class="btn btn-success add-to-cart" data-name="Aloe Vera Moisturizer" data-price="8.49">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product6.jpg" class="card-img-top" alt="Anti-Aging Night Cream">
+      <div class="card-body">
+        <h5 class="card-title">Anti-Aging Night Cream</h5>
+        <p class="card-text">Firms and renews skin overnight.</p>
+        <p class="fw-bold">$13.99</p>
+        <button class="btn btn-success add-to-cart" data-name="Anti-Aging Night Cream" data-price="13.99">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product7.jpg" class="card-img-top" alt="Charcoal Cleanser">
+      <div class="card-body">
+        <h5 class="card-title">Charcoal Cleanser</h5>
+        <p class="card-text">Removes impurities and unclogs pores.</p>
+        <p class="fw-bold">$6.99</p>
+        <button class="btn btn-success add-to-cart" data-name="Charcoal Cleanser" data-price="6.99">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 8 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product8.jpg" class="card-img-top" alt="Soothing Rose Toner">
+      <div class="card-body">
+        <h5 class="card-title">Soothing Rose Toner</h5>
+        <p class="card-text">Tones and refreshes skin gently.</p>
+        <p class="fw-bold">$7.79</p>
+        <button class="btn btn-success add-to-cart" data-name="Soothing Rose Toner" data-price="7.79">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 9 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product9.jpg" class="card-img-top" alt="Green Tea Face Mist">
+      <div class="card-body">
+        <h5 class="card-title">Green Tea Face Mist</h5>
+        <p class="card-text">Refreshes and revitalizes tired skin.</p>
+        <p class="fw-bold">$6.49</p>
+        <button class="btn btn-success add-to-cart" data-name="Green Tea Face Mist" data-price="6.49">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 10 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product10.jpg" class="card-img-top" alt="Sun Protection Cream SPF 50">
+      <div class="card-body">
+        <h5 class="card-title">Sun Protection SPF 50</h5>
+        <p class="card-text">Protects against UVA/UVB rays.</p>
+        <p class="fw-bold">$11.99</p>
+        <button class="btn btn-success add-to-cart" data-name="Sun Protection SPF 50" data-price="11.99">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 11 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product11.jpg" class="card-img-top" alt="Brightening Face Mask">
+      <div class="card-body">
+        <h5 class="card-title">Brightening Face Mask</h5>
+        <p class="card-text">Evens skin tone and adds glow.</p>
+        <p class="fw-bold">$5.49</p>
+        <button class="btn btn-success add-to-cart" data-name="Brightening Face Mask" data-price="5.49">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 12 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card h-100">
+      <img src="images/product12.jpg" class="card-img-top" alt="Pore Minimizing Serum">
+      <div class="card-body">
+        <h5 class="card-title">Pore Minimizing Serum</h5>
+        <p class="card-text">Refines pores and smooths texture.</p>
+        <p class="fw-bold">$14.25</p>
+        <button class="btn btn-success add-to-cart" data-name="Pore Minimizing Serum" data-price="14.25">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+      
 
       <!-- Repeat similar blocks for additional products -->
 
     </div>
   </div>
+     <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h5>About Garnier</h5>
+                    <p>Since 1904, Garnier has been committed to creating innovative beauty products powered by natural ingredients.</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="products.html" class="text-white">Products</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                        <li><a href="feedback.html" class="text-white">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-white">FAQs</a></li>
+                        <li><a href="#" class="text-white">Shipping Policy</a></li>
+                        <li><a href="#" class="text-white">Returns & Refunds</a></li>
+                        <li><a href="#" class="text-white">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Beauty St, Paris, France</li>
+                        <li><i class="fas fa-phone me-2"></i> +1 (800) 123-4567</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@garnier.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small">&copy; 2023 Garnier. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="small">
+                        <a href="#" class="text-white">Privacy Policy</a> | 
+                        <a href="#" class="text-white">Terms of Service</a> | 
+                        <a href="#" class="text-white">Cookie Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+  
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
