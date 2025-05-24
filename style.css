@@ -50,7 +50,7 @@ table.table-dark tbody td {
 
 /* Hero Section Background */
 .hero-section {
-  background-image: url(/images/hero-bg.jpeg'); /* Put your hero image in /images/ */
+  background-image: url('images/hero-bg.jpeg'); /* Put your hero image in /images/ */
   background-size: cover;
   background-position: center;
   height: 100vh;
