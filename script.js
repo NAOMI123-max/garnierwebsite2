@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
       button.addEventListener("click", () => {
         const name = button.getAttribute("data-name");
         const price = parseFloat(button.getAttribute("data-price"));
-        addToCart(name, price);
+        const image = button.getAttribute("data-image") || "images/default.jpg";
+        addToCart(name, price, image);
       });
     });
   }
@@ -36,13 +37,13 @@ function saveCart(cart) {
   localStorage.setItem("garnierCart", JSON.stringify(cart));
 }
 
-function addToCart(name, price) {
+function addToCart(name, price, image) {
   let cart = getCart();
   let found = cart.find(item => item.name === name);
   if (found) {
     found.qty += 1;
   } else {
-    cart.push({ name, price, qty: 1 });
+    cart.push({ name, price, image, qty: 1 });
   }
   saveCart(cart);
   alert(`${name} added to cart!`);
@@ -115,6 +116,16 @@ function renderCart() {
     };
   }
 }
+tr.innerHTML = `
+  <td><img src="${item.image}" alt="${item.name}" width="50"></td>
+  <td>${item.name}</td>
+  <td>${item.price.toFixed(2)}</td>
+  <td>
+    <input type="number" min="1" value="${item.qty}" data-index="${index}" class="form-control qty-input" style="width: 70px; margin: 0 auto;" />
+  </td>
+  <td>${itemTotal.toFixed(2)}</td>
+  <td><button class="btn btn-danger btn-sm remove-btn" data-index="${index}">Remove</button></td>
+`;
 
 function updateQty(index, qty) {
   let cart = getCart();
