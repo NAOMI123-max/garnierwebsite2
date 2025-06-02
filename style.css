@@ -101,3 +101,44 @@ table.table-dark tbody td {
 .cart-empty .cart-summary {
     display: none;
 }
+/* Make blog headings pop */
+h2 {
+  font-weight: 700;
+  color: #a4d07c;
+  margin-bottom: 30px;
+}
+
+/* Blog card hover effect */
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog card images */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Blog page background override if needed */
+body.bg-dark {
+  background-color: #1c1c1c;
+}
+
+/* Button hover for blog cards */
+.btn-success:hover {
+  background-color: #7bb442;
+  border-color: #7bb442;
+}
+
+/* Ensure social icons are spaced consistently */
+.social-icons a {
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #a4d07c;
+}
+
