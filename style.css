@@ -141,4 +141,54 @@ body.bg-dark {
 .social-icons a:hover {
   color: #a4d07c;
 }
+/* Blog Post Container */
+.blog-post {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Blog Post Title */
+.blog-post h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #2a5934; /* Garnier green tone */
+}
+
+/* Blog Post Meta (date, author) */
+.blog-post .meta {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Blog Paragraphs */
+.blog-post p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Blog Images */
+.blog-post img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Back Link */
+.blog-post .back-link {
+  display: inline-block;
+  margin-top: 30px;
+  color: #28a745;
+  text-decoration: none;
+}
+
+.blog-post .back-link:hover {
+  text-decoration: underline;
+}
+
 
