@@ -41,6 +41,14 @@
         <textarea class="form-control" id="feedback" rows="4" required></textarea>
       </div>
       <button type="submit" class="btn btn-success">Submit Feedback</button>
+      <script>
+  document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault(); // prevent page reload
+    alert("Thank you for your feedback!");
+    this.reset(); // optional: clears the form
+  });
+</script>
+
     </form>
   </div>
   <footer class="bg-dark text-white pt-5 pb-4">
