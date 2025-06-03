@@ -26,6 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
       submitFeedback();
     });
   }
+  document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault(); // prevent page reload
+    alert("Thank you for your feedback!");
+    this.reset(); // optional: clears the form
+  });
+
+
 });
 
 // Cart functions
