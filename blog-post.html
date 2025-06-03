@@ -1,18 +1,92 @@
-<!-- blog-post.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blog Post - Garnier</title>
+  <title>Top 5 Garnier Skincare Products - Garnier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body class="bg-light text-dark">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/garnier-logo.png" alt="Garnier Logo" width="120" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Content -->
   <div class="container py-5">
-    <h2 class="mb-4">The Natural Power Behind Garnier</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is where your full article will go...</p>
-    <a href="blog.html" class="btn btn-outline-success mt-3">← Back to Blog</a>
+    <h1 class="mb-4">Top 5 Garnier Skincare Products You Must Try</h1>
+    <img src="images/top-products.jpg" alt="Top Products" class="img-fluid rounded mb-4">
+
+    <p>If you're new to Garnier or looking to upgrade your skincare routine, we've gathered the top 5 Garnier products that customers love and dermatologists recommend.</p>
+
+    <h4>1. Garnier Micellar Cleansing Water</h4>
+    <p>A gentle yet effective cleanser that removes makeup and dirt without rinsing. Suitable for all skin types.</p>
+
+    <h4>2. Garnier Vitamin C Serum</h4>
+    <p>Brighten your skin and reduce dark spots with this powerful, lightweight serum packed with Vitamin C and natural ingredients.</p>
+
+    <h4>3. Garnier Hydrabomb Sheet Mask</h4>
+    <p>Instant hydration and freshness in one easy step. These masks are perfect before big events or as a weekly treat.</p>
+
+    <h4>4. Garnier Pure Active Face Wash</h4>
+    <p>Deep-cleansing formula ideal for oily and acne-prone skin. Removes excess oil while keeping your skin balanced.</p>
+
+    <h4>5. Garnier Rose Soothing Toner</h4>
+    <p>Refreshes and soothes the skin with rose water extract—perfect for sensitive or dry skin types.</p>
+
+    <p>Explore these essentials and experience how Garnier can transform your skincare game naturally!</p>
+
+    <a href="blog.html" class="btn btn-secondary mt-3">← Back to Blog</a>
   </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <h5>About Garnier</h5>
+          <p>Innovative beauty powered by nature since 1904.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="products.html" class="text-white">Products</a></li>
+            <li><a href="blog.html" class="text-white">Blog</a></li>
+            <li><a href="feedback.html" class="text-white">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5>Contact Info</h5>
+          <ul class="list-unstyled">
+            <li>123 Beauty St, Paris, France</li>
+            <li>+1 (800) 123-4567</li>
+            <li>info@garnier.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <p class="text-center small mb-0">&copy; 2023 Garnier. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
